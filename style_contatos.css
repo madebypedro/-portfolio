@@ -1,0 +1,205 @@
+body {
+    background-color: #f8f5f5;
+    margin: 0;
+}
+
+#top {
+    background-color: 	#4e803c;
+    margin-top: -20px;
+    width: 300px;
+    height: 1150px;
+    text-align: center;
+}
+
+.foto {
+    width: 150px;
+    background-color: 	#4e803c;
+    border: 6px double #000;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 1.7rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 1rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in;
+}
+
+.link:hover {
+    background-color:rgba(219, 215, 211, 0.575);
+    border: 0.2rem solid rgb(3, 3, 3);    
+    border-radius: 70%;
+}
+
+header {
+    float: left;  
+}
+
+.info01 {
+    background: linear-gradient(to right, #b8afaf, #067034);
+    margin: 1rem 1rem 1rem 20rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+
+.info02 {
+    background: linear-gradient(to right, #b8afaf,#067034);
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 390px;
+    height: 190px;
+}
+
+
+.info03 {
+    background: linear-gradient(to right, #b8afaf, #067034);
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 230px;
+    height: 190px;
+}
+
+
+.info04 {
+    background: linear-gradient(to right, #b8afaf, #067034);
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 230px;
+    height: 190px;
+}
+
+
+.info05 {
+    background: linear-gradient(to right, #b8afaf, #067034);
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 390px;
+    height: 300px;
+}
+
+
+.info06 {
+    background: linear-gradient(to right, #b8afaf, #067034);
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 230px;
+    height: 300px;
+}
+
+
+.info07 {
+    background: linear-gradient(to right, #b8afaf, #067034);
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 230px;
+    height: 370px;
+}
+
+
+.info08 {
+    background: linear-gradient(to right, #b8afaf, 	#4e803c);
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 1000px;
+    height: 170px;
+}
+
+
+#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+p {
+    color: #067034;
+    font: 1rem verdana;
+}
+
+legend {
+    color: #067034;
+    font: 1rem verdana;
+    font-weight: bold;
+}
+
+form {
+    width: 800px;
+    margin: auto 20rem auto 21rem;
+}
+
+fieldset #sexo {
+    width: 250px;
+    font: 1.3vw verdana;
+}
+
+fieldset {
+    border: 1px solid #067034;
+    margin: 20px;
+
+}
+
+input.btn {
+    background-color:#ffffff;
+    color: #067034;
+    padding: 7px;
+    margin: 5px;
+    font: 1.3vw verdana;
+    border: none;
+}
+
+input.btn:hover {
+    background-color: #067034;
+    color: #ffffff;
+}
+
+fieldset#usuario {
+    background: url("images/icon-contato.png") no-repeat 95% 95%;
+}   
+
+fieldset#endereco {
+    background: url("images/icon-endereco.png") no-repeat 95% 95%;
+}
+
+fieldset#mensagem {
+    background: url("images/icon-mensagem.png") no-repeat 95% 95%;
+}
+

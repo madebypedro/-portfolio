@@ -1,0 +1,44 @@
+
+table {
+width: 75%;
+background-color: 	#4e803c;
+padding: 0.1rem;
+border: 6px double #ffffff;
+border-radius: 1rem;
+margin: 3rem 0rem 0rem 0rem;
+text-align: center;
+}
+
+  th, td {
+    padding: 12px; /* Espaçamento interno nas células */
+    text-align: center; /* Alinhamento do texto à esquerda */
+    border: 1px solid 	#ffffff; /* Borda suave */
+  }
+  
+  /* Estilo para cabeçalhos da tabela */
+  th {
+    background-color: 	#4e803c; /* Cor de fundo verde */
+    color: 	#4e803c; /* Cor do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+  }
+  
+  /* Estilo para as linhas ímpares da tabela */
+  tr:nth-child(odd) {
+    background-color: 	#4e803c; /* Cor de fundo cinza claro */
+  }
+  
+  /* Estilo para a linha quando o mouse passa por cima */
+  tr:hover {
+    background-color: 	#4e803c; /* Cor de fundo cinza escuro quando o mouse passa por cima */
+  }
+  
+  /* Estilo para as bordas */
+  table, th, td {
+    border: 1px solid 	#4e803c;
+  }
+  
+  /* Estilo para a tabela com bordas */
+  table {
+    border-spacing: 1;
+  }
+  
